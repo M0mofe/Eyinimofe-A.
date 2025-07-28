@@ -84,4 +84,15 @@ ul {
   padding: 10px;
   border-radius: 4px;
   margin-top: 10px;
+
+/* =============================
+   Profile Image Styling
+   ============================= */
+
+img {
+  display: block;           /* Makes the image a block element so margin auto works */
+  margin: 20px auto;        /* Centers the image and adds vertical spacing */
+  border-radius: 10px;      /* Rounds the corners of the image */
+}
+
 }
