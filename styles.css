@@ -1,32 +1,77 @@
+/* =============================
+   Base Styles and Page Layout
+   ============================= */
+
+/* Apply a code-editor feel using monospace font */
 body {
-  font-family: sans-serif;
+  font-family: "Courier New", Courier, monospace;
+  background-color: #1e1e1e; /* Dark editor-like background */
+  color: #d4d4d4;            /* Light gray text for readability */
   margin: 0;
   padding: 0;
-  background: #c0c0c0;
-  color: #333;
+  line-height: 1.6;
 }
+
+/* =============================
+   Navigation Bar
+   ============================= */
 
 nav {
-  background-color: #0c0604;
+  background-color: #000000;      /* Solid black nav bar */
   padding: 10px 20px;
+  border-bottom: 2px solid #00ff00; /* Green line for terminal vibe */
 }
 
+/* Style nav links to look like terminal text */
 nav a {
-  color: white;
-  margin-right: 15px;
+  color: #00ff00;                /* Neon green like a terminal */
   text-decoration: none;
+  margin-right: 15px;
   font-weight: bold;
 }
 
-main {
-  padding: 20px;
+/* Change color on hover */
+nav a:hover {
+  color: #ffffff;
 }
 
-h1 {
-  color: #0c0604;
+/* =============================
+   Main Content Area
+   ============================= */
+
+main {
+  padding: 30px;
+  max-width: 800px;
+  margin: auto;
+  font-size: 16px;
 }
+
+/* Headings styled like function or class names */
+h1, h2 {
+  color: #00ff00;        /* Green like Python syntax highlighting */
+  font-weight: normal;
+}
+
+/* =============================
+   Section Styling
+   ============================= */
+
+/* Space out each experience section */
+section {
+  margin-bottom: 40px;
+  background-color: #2d2d2d;       /* Slightly lighter than background */
+  border-left: 4px solid #00ff00;  /* Green stripe to mimic code block */
+  padding: 15px;
+  border-radius: 5px;
+}
+
+/* =============================
+   Lists
+   ============================= */
 
 ul {
-  list-style-type: circle;
+  list-style-type: square;
   margin-left: 20px;
+}
+
 }
