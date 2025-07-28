@@ -17,21 +17,21 @@ body {
    ============================= */
 
 nav {
-  background-color: #000000;      /* Solid black nav bar */
+  background-color: #000000;        /* Solid black nav bar */
   padding: 10px 20px;
-  border-bottom: 2px solid #00b1ed; /* Blue line for terminal vibe */
+  border-bottom: 2px solid #007acc; /* Dark blue line (like VS Code) */
 }
 
 /* Style nav links to look like terminal text */
 nav a {
-  color: #00b1ed;                /* Blue like a terminal */
+  color: #007acc;                /* Dark blue terminal-style links */
   text-decoration: none;
   margin-right: 15px;
   font-weight: bold;
 }
 
 /* Change color on hover */
-nav a:hover {
+nav a: hover {
   color: #ffffff;
 }
 
@@ -48,7 +48,7 @@ main {
 
 /* Headings styled like function or class names */
 h1, h2 {
-  color: #00b1ed;        /* Blue like syntax highlighting */
+  color: #007acc;        /* Blue like Python function names in editors */
   font-weight: normal;
 }
 
@@ -56,11 +56,10 @@ h1, h2 {
    Section Styling
    ============================= */
 
-/* Space out each experience section */
 section {
   margin-bottom: 40px;
   background-color: #2d2d2d;       /* Slightly lighter than background */
-  border-left: 4px solid #00b1ed;  /* Blue stripe to mimic code block */
+  border-left: 4px solid #007acc;  /* Blue stripe to mimic code block */
   padding: 15px;
   border-radius: 5px;
 }
@@ -74,4 +73,15 @@ ul {
   margin-left: 20px;
 }
 
+/* =============================
+   Optional: Python Code Blocks
+   ============================= */
+
+.code-block {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #252526;  /* Darker editor panel */
+  color: #dcdcaa;             /* Soft yellow for "code" text */
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 10px;
 }
