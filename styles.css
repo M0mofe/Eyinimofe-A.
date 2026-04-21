@@ -17,7 +17,7 @@ nav {
 
 /* Style nav links to look like terminal text */
 nav a {
-  color: #000000;                /* Black terminal-style links */
+  color: #FFFFFF;                /* Black terminal-style links */
   text-decoration: none;
   margin-right: 15px;
   font-weight: bold;
