@@ -1,8 +1,8 @@
 /* Apply a code-editor feel using monospace font */
 body {
   font-family: "Courier New", Courier, monospace;
-  background-color: #FFFFFF; /* Dark editor-like background */
-  color: #000000;            /* Light gray text for readability */
+  background-color: #FFFFFF; /* white editor-like background */
+  color: #000000;            /* Black text for readability */
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -12,12 +12,12 @@ body {
 nav {
   background-color: #000000;        /* Solid black nav bar */
   padding: 10px 20px;
-  border-bottom: 2px solid #000000; /* Dark blue line (like VS Code) */
+  border-bottom: 2px solid #000000; /* Black line (like VS Code) */
 }
 
 /* Style nav links to look like terminal text */
 nav a {
-  color: #000000;                /* Dark blue terminal-style links */
+  color: #000000;                /* Black terminal-style links */
   text-decoration: none;
   margin-right: 15px;
   font-weight: bold;
@@ -38,7 +38,7 @@ main {
 
 /* Headings styled like function or class names */
 h1, h2 {
-  color: #000000;        /* Blue like Python function names in editors */
+  color: #000000;        /* Black like Python function names in editors */
   font-weight: normal;
 }
 
