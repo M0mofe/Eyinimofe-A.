@@ -1,8 +1,8 @@
 /* Apply a code-editor feel using monospace font */
 body {
   font-family: "Courier New", Courier, monospace;
-  background-color: #1e1e1e; /* Dark editor-like background */
-  color: #d4d4d4;            /* Light gray text for readability */
+  background-color: #FFFFFF; /* Dark editor-like background */
+  color: #000000;            /* Light gray text for readability */
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -12,12 +12,12 @@ body {
 nav {
   background-color: #000000;        /* Solid black nav bar */
   padding: 10px 20px;
-  border-bottom: 2px solid #007acc; /* Dark blue line (like VS Code) */
+  border-bottom: 2px solid #000000; /* Dark blue line (like VS Code) */
 }
 
 /* Style nav links to look like terminal text */
 nav a {
-  color: #007acc;                /* Dark blue terminal-style links */
+  color: #000000;                /* Dark blue terminal-style links */
   text-decoration: none;
   margin-right: 15px;
   font-weight: bold;
@@ -38,7 +38,7 @@ main {
 
 /* Headings styled like function or class names */
 h1, h2 {
-  color: #007acc;        /* Blue like Python function names in editors */
+  color: #000000;        /* Blue like Python function names in editors */
   font-weight: normal;
 }
 
@@ -56,15 +56,6 @@ ul {
   list-style-type: square;
   margin-left: 20px;
 }
-
-/* Optional: Python Code Blocks */
-.code-block {
-  font-family: "Courier New", Courier, monospace;
-  background-color: #252526;  /* Darker editor panel */
-  color: #dcdcaa;             /* Soft yellow for "code" text */
-  padding: 10px;
-  border-radius: 4px;
-  margin-top: 10px;
 
 /* Profile Image Styling */
 img {
